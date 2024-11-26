@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.backG {
+  background-image: url(./Assets/cinema-background-concept-vector.jpg);
+}
+
+main {
+  background-image: url(./Assets/OIP.jpg)
+  ;
+}
+

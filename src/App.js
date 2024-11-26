@@ -1,12 +1,13 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { container, row, col } from 'bootstrap'
+import { Container, Col } from 'react-bootstrap'
 import MyNavbar from './components/MyNavbar'
 import MyFooter from './components/MyFooter'
 import Welcome from './components/Welcome'
 import AllTheBooks from './components/AllTheBooks'
-import { Form } from 'react-bootstrap';
+
+
 
 function App() {
   return (
@@ -19,7 +20,13 @@ function App() {
       </header>
       <main>
         <Welcome />
-       <AllTheBooks/>
+        <Container >
+          
+           
+       <AllTheBooks />
+           
+        
+        </Container>
 
 
 
